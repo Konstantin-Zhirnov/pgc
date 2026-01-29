@@ -1,0 +1,29 @@
+.btn {
+  width: fit-content;
+  height: 30px;
+  background: #c5c8dc;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0 16px;
+  transition: background .5s;
+  color: #13151a;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 0.84rem;
+  margin-top: .1rem;
+  white-space: nowrap;
+  margin-bottom: 2rem;
+
+  &:hover {
+    background: #9597a5;
+    transition: background .5s;
+  }
+}
+
+@media (max-width: 410px) {
+  .btn {
+    width: 100%;
+  }
+}
+

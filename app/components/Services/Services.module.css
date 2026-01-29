@@ -1,0 +1,59 @@
+.container {
+  margin-bottom: 6rem;
+}
+
+.cards {
+  display: flex;
+  gap: 2rem;
+
+  .card {
+    letter-spacing: .01rem;
+    list-style: none;
+    max-width: 60%;
+    background: #1d1f27;
+    border-radius: 24px;
+    box-shadow: 0 0 transparent, 0 0 transparent, 0 0 16px rgba(0, 0, 0, .02);
+    padding: 1rem;
+    flex: 1;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+
+    p {
+      font-size: 1.1rem;
+      color: #c5c8dc;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    img {
+      width: 100%;
+      margin-bottom: 1rem;
+      border-radius: 2px;
+    }
+
+    a {
+      color: #ffb800;
+      text-align: center;
+      transition: color 0.3s;
+
+      &:hover {
+        color: #7c5a02;
+        transition: color 0.3s;
+      }
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+
+    .card {
+      max-width: 90%;
+      width: 90%;
+    }
+  }
+}

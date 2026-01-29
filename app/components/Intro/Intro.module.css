@@ -1,0 +1,21 @@
+.container {
+  background-color: #13151a;
+  padding-top: 4rem;
+  margin-bottom: 10rem;
+}
+
+.wrapper {
+  max-width: 900px;
+}
+
+.text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-family: inherit;
+  font-weight: 400;
+  max-width: 660px;
+  text-align: center;
+  margin: 0 auto 3rem;
+  word-spacing: 0.1rem;
+  color: #e9eaeb;
+}

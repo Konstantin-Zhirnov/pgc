@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6px;
+
+    .link_container {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 30%;
+        flex: 1;
+
+        .phone {
+            text-decoration: none;
+            color: #ffb800;
+            font-size: 2rem;
+        }
+
+        .email {
+            height: 42px;
+            background: linear-gradient(180deg, #ffb800, #ff8a00);
+            border: 1px solid #ffb800;
+            border-radius: 10px;
+            cursor: pointer;
+            padding: 0 24px;
+            transition: background .5s;
+            color: #13151a;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            font-size: 1.1rem;
+            margin-top: .1rem;
+
+            &:hover {
+                background: linear-gradient(180deg, #f0ad03, #f38304);
+                transition: background .5s;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 680px) {
+    .container .link_container {
+        flex-wrap: wrap;
+        gap: 0.6rem;
+        justify-content: center;
+
+        .phone {
+            font-size: 1.6rem;
+        }
+
+        .email {
+            height: 34px;
+            font-size: 0.9rem;
+        }
+    }
+}

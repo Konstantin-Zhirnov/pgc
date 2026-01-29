@@ -1,0 +1,39 @@
+.input_container {
+  width: 100%;
+  padding-bottom: 1.4rem;
+}
+
+.input_label {
+  font-size: 0.8rem;
+  color: #c5c8dc;
+  display: block;
+  letter-spacing: 0.024rem;
+}
+
+.input {
+  width: 100%;
+  min-width: calc(100% - 20px);
+  border: 1px solid #3F4A5C;
+  border-radius: 4px;
+  margin-top: 2px;
+  height: 36px;
+  padding: 6px;
+  font-size: 1rem;
+  background: #c5c8dc;
+}
+
+.input.description {
+  height: 80px
+}
+
+.error {
+  position: absolute;
+  color: red;
+  font-size: 0.8rem;
+  letter-spacing: 0.02rem;
+  margin-top: 4px;
+}
+
+.star {
+  font-size: 1.1rem;
+}

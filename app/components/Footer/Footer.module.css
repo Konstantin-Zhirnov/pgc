@@ -1,0 +1,32 @@
+.container {
+    background: #1d1f27;
+
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+
+        a {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            color: #c5c8dc;
+            text-decoration: none;
+        }
+    }
+
+    .divider {
+        height: 1px;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .rights {
+        text-align: center;
+        font-size: 0.8rem;
+        padding: 1rem 0;
+    }
+}
+

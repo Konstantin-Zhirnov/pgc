@@ -1,0 +1,21 @@
+.btn {
+    height: 42px;
+    background: linear-gradient(180deg, #ffb800, #ff8a00);
+    border: 1px solid #ffb800;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0 24px;
+    transition: background .5s;
+    color: #13151a;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-top: .1rem;
+    white-space: nowrap;
+
+    &:hover {
+        background: linear-gradient(180deg, #f0ad03, #f38304);
+        transition: background .5s;
+    }
+}

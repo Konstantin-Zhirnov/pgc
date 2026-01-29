@@ -1,0 +1,57 @@
+.container {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .content {
+        background: #282828;
+        box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+        padding: 2rem;
+        border-radius: 22px;
+        max-width: 400px;
+        width: 90%;
+        max-height: 90vh;
+        overflow-y: auto;
+        position: relative;
+
+        .btn {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            border-radius: 50%;
+            border: 0;
+            cursor: pointer;
+            width: 24px;
+            height: 24px;
+            background-color: #c5c8dc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #13151a;
+            transition: all 0.4s;
+            z-index: 100;
+
+            &:hover {
+                background-color: #a3a5b6;
+                transition: all 0.4s;
+            }
+
+            svg {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+

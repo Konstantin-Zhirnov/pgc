@@ -24,7 +24,6 @@ export async function POST(req: Request) {
       html: `<div><b>Message from website: pgcdrywall.com</b></div>
           <p><b>Name:</b> ${body.firstName}<br/>
           <b>Phone:</b> ${body.phone}<br/>
-          <b>Email:</b> ${body.email}<br/>
           <b>Additional:</b> ${body.additional}</p>`,
     })
   } catch (error) {

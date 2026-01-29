@@ -24,7 +24,7 @@ export async function POST(req: Request) {
       html: `<div><b>Message from website: pgcdrywall.com</b></div>
           <p><b>Name:</b> ${body.firstName}<br/>
           <b>Phone:</b> ${body.phone}<br/>
-          <b>Additional:</b> ${body.additional}</p>`,
+          <b>Message:</b> ${body.message}</p>`,
     })
   } catch (error) {
     // @ts-ignore

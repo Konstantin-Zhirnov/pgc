@@ -40,8 +40,7 @@ export const Form: FC<IProps> = ({ onClose }) => {
     const body = {
       name: data.Name,
       phone: data.Phone,
-      email: data.Email,
-      additional: data.Additional,
+      message: data.Message,
     }
 
     try {

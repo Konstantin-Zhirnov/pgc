@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { FC, useState } from 'react'
 import * as yup from 'yup'
 import { SubmitHandler, useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
@@ -12,7 +12,11 @@ import { FormItem } from './FormItem'
 
 import styles from './Form.module.css'
 
-export const Form = () => {
+interface IProps {
+  onClose: () => void
+}
+
+export const Form: FC<IProps> = ({ onClose }) => {
   const [loading, setLoading] = useState(false)
 
   const schema = yup.object({
@@ -26,7 +30,6 @@ export const Form = () => {
     formState: { errors },
     handleSubmit,
     reset,
-    setError,
   } = useForm<any>({
     resolver: yupResolver(schema),
   })
@@ -53,11 +56,14 @@ export const Form = () => {
 
       if (res.status === 200) {
         reset()
+
         toast.success('Message sent successfully!', {
           position: 'top-right',
           autoClose: 5000,
           theme: 'dark',
         })
+
+        onClose()
       } else {
         toast.error('Something went wrong. Please try again.')
       }
@@ -67,7 +73,7 @@ export const Form = () => {
       setLoading(false)
     }
   }
-  console.log('errors', errors)
+
   return (
     <>
       <p className={styles.text}>Fill out the form below and we’ll get back to you ASAP</p>

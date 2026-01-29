@@ -34,7 +34,7 @@ export const Assessment: FC<IProps> = ({ text }) => {
 
       {isModal && (
         <Modal onClose={onClose}>
-          <Form />
+          <Form onClose={onClose} />
         </Modal>
       )}
     </>

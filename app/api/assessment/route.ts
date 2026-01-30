@@ -21,8 +21,8 @@ export async function POST(req: Request) {
   try {
     await transporter.sendMail({
       from: 'kostya.zhirnov@gmail.com',
-      to: 'zhirnov-11.06@mail.ru',
-      subject: 'Message from website',
+      to: 'info@pgcdrywall.com',
+      subject: 'Message from website:',
       html: `
   <div style="
     font-family: Arial, Helvetica, sans-serif;
@@ -101,20 +101,6 @@ export async function POST(req: Request) {
           ${body.message}
         </p>
       </div>
-
-      <a href="mailto:pgcdrywall@gmail.com" style="
-        display: inline-block;
-        margin-top: 28px;
-        padding: 12px 20px;
-        background-color: #ffb800;
-        color: #13151a;
-        text-decoration: none;
-        font-weight: 600;
-        border-radius: 6px;
-        font-size: 14px;
-      ">
-        Reply
-      </a>
     </div>
   </div>
 `,

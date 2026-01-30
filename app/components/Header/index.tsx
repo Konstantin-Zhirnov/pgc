@@ -17,7 +17,7 @@ export const Header = () => {
           778.531.4141
         </a>
 
-        <a href="mailto:info@pahlavancontracting.com" className={styles.email}>
+        <a href="mailto:info@pgcdrywall.com" className={styles.email}>
           Send Email
         </a>
       </div>

@@ -1,7 +1,7 @@
 import styles from './Phone.module.css'
 
 export const Phone = () => (
-  <a href="tel:+12502681249" className={styles.btn}>
+  <a href="tel:7785314141" className={styles.btn}>
     <svg
       fill="currentColor"
       viewBox="0 0 512 512"

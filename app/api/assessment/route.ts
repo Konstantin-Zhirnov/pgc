@@ -23,10 +23,101 @@ export async function POST(req: Request) {
       from: 'kostya.zhirnov@gmail.com',
       to: 'zhirnov-11.06@mail.ru',
       subject: 'Message from website',
-      html: `<div><b>Message from website: pgcdrywall.com</b></div>
-          <p><b>Name:</b> ${body.firstName}<br/>
-          <b>Phone:</b> ${body.phone}<br/>
-          <b>Message:</b> ${body.message}</p>`,
+      html: `
+  <div style="
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #13151a;
+    padding: 24px;
+  ">
+    <div style="
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #1a1d24;
+      border-radius: 10px;
+      padding: 24px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+    ">
+      <h2 style="
+        margin: 0 0 12px;
+        color: #ffb800;
+        font-size: 20px;
+      ">
+        Message from website
+      </h2>
+
+      <p style="
+        margin: 0 0 24px;
+        color: #c5c8dc;
+        font-size: 14px;
+        opacity: 0.85;
+      ">
+        pgcdrywall.com
+      </p>
+
+      <table style="
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+        color: #c5c8dc;
+      ">
+        <tr>
+          <td style="padding: 8px 0; font-weight: 600; width: 90px;">
+            Name:
+          </td>
+          <td style="padding: 8px 0;">
+            ${body.name}
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 8px 0; font-weight: 600;">
+            Phone:
+          </td>
+          <td style="padding: 8px 0;">
+            ${body.phone}
+          </td>
+        </tr>
+      </table>
+
+      <div style="
+        margin-top: 24px;
+        padding: 16px;
+        background-color: #13151a;
+        border-left: 4px solid #ffb800;
+        border-radius: 6px;
+      ">
+        <p style="
+          margin: 0 0 8px;
+          font-weight: 600;
+          color: #ffb800;
+        ">
+          Message:
+        </p>
+        <p style="
+          margin: 0;
+          color: #c5c8dc;
+          white-space: pre-line;
+          line-height: 1.6;
+        ">
+          ${body.message}
+        </p>
+      </div>
+
+      <a href="mailto:pgcdrywall@gmail.com" style="
+        display: inline-block;
+        margin-top: 28px;
+        padding: 12px 20px;
+        background-color: #ffb800;
+        color: #13151a;
+        text-decoration: none;
+        font-weight: 600;
+        border-radius: 6px;
+        font-size: 14px;
+      ">
+        Reply
+      </a>
+    </div>
+  </div>
+`,
     })
   } catch (error) {
     // @ts-ignore

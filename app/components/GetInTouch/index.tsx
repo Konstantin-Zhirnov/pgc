@@ -1,3 +1,7 @@
+import { motion } from 'framer-motion'
+
+import { animation } from '../../constants'
+
 import { Assessment } from '../Assessment'
 import { Wrapper } from '../Wrapper'
 
@@ -5,7 +9,13 @@ import styles from './GetInTouch.module.css'
 
 export const GetInTouch = () => {
   return (
-    <section>
+    <motion.section
+      className={styles.container}
+      initial="hidden"
+      whileInView="visible"
+      variants={animation}
+      viewport={{ once: true }}
+    >
       <Wrapper classes={styles.wrapper}>
         <div className={styles.card}>
           <img className={styles.image} src="/assets/logo.png" alt="PGC Drywall Specialists" />
@@ -22,6 +32,6 @@ export const GetInTouch = () => {
           <Assessment text="Contact us today" />
         </div>
       </Wrapper>
-    </section>
+    </motion.section>
   )
 }

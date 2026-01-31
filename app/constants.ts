@@ -125,6 +125,10 @@ export const mainImagesSrcArray = [
     min: '/assets/drywall/pool_6-min.webp',
   },
   {
+    full: '/assets/drywall/showcase_11.webp',
+    min: '/assets/drywall/showcase_11-min.webp',
+  },
+  {
     full: '/assets/drywall/showcase_1.webp',
     min: '/assets/drywall/showcase_1-min.webp',
   },
@@ -163,10 +167,6 @@ export const mainImagesSrcArray = [
   {
     full: '/assets/drywall/showcase_10.webp',
     min: '/assets/drywall/showcase_10-min.webp',
-  },
-  {
-    full: '/assets/drywall/showcase_11.webp',
-    min: '/assets/drywall/showcase_11-min.webp',
   },
   {
     full: '/assets/drywall/showcase_12.webp',

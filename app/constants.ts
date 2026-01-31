@@ -77,20 +77,20 @@ export const mainImagesSrcArray = [
     min: '/assets/drywall/vaulted_ceiling_3-min.webp',
   },
   {
-    full: '/assets/drywall/vaulted_ceiling_4.webp',
-    min: '/assets/drywall/vaulted_ceiling_4-min.webp',
-  },
-  {
     full: '/assets/drywall/vaulted_ceiling_5.webp',
     min: '/assets/drywall/vaulted_ceiling_5-min.webp',
   },
   {
-    full: '/assets/drywall/vaulted_ceiling_7.webp',
-    min: '/assets/drywall/vaulted_ceiling_7-min.webp',
-  },
-  {
     full: '/assets/drywall/vaulted_ceiling_6.webp',
     min: '/assets/drywall/vaulted_ceiling_6-min.webp',
+  },
+  {
+    full: '/assets/drywall/vaulted_ceiling_4.webp',
+    min: '/assets/drywall/vaulted_ceiling_4-min.webp',
+  },
+  {
+    full: '/assets/drywall/vaulted_ceiling_7.webp',
+    min: '/assets/drywall/vaulted_ceiling_7-min.webp',
   },
   {
     full: '/assets/drywall/pool_7.webp',
@@ -101,12 +101,12 @@ export const mainImagesSrcArray = [
     min: '/assets/drywall/pool_8-min.webp',
   },
   {
-    full: '/assets/drywall/pool_1.webp',
-    min: '/assets/drywall/pool_1-min.webp',
-  },
-  {
     full: '/assets/drywall/pool_2.webp',
     min: '/assets/drywall/pool_2-min.webp',
+  },
+  {
+    full: '/assets/drywall/pool_1.webp',
+    min: '/assets/drywall/pool_1-min.webp',
   },
   {
     full: '/assets/drywall/pool_3.webp',
@@ -123,6 +123,70 @@ export const mainImagesSrcArray = [
   {
     full: '/assets/drywall/pool_6.webp',
     min: '/assets/drywall/pool_6-min.webp',
+  },
+  {
+    full: '/assets/drywall/showcase_1.webp',
+    min: '/assets/drywall/showcase_1-min.webp',
+  },
+  {
+    full: '/assets/drywall/showcase_2.webp',
+    min: '/assets/drywall/showcase_2-min.webp',
+  },
+  {
+    full: '/assets/drywall/showcase_3.webp',
+    min: '/assets/drywall/showcase_3-min.webp',
+  },
+  {
+    full: '/assets/drywall/showcase_4.webp',
+    min: '/assets/drywall/showcase_4-min.webp',
+  },
+  {
+    full: '/assets/drywall/showcase_5.webp',
+    min: '/assets/drywall/showcase_5-min.webp',
+  },
+  {
+    full: '/assets/drywall/showcase_6.webp',
+    min: '/assets/drywall/showcase_6-min.webp',
+  },
+  {
+    full: '/assets/drywall/showcase_7.webp',
+    min: '/assets/drywall/showcase_7-min.webp',
+  },
+  {
+    full: '/assets/drywall/showcase_8.webp',
+    min: '/assets/drywall/showcase_8-min.webp',
+  },
+  {
+    full: '/assets/drywall/showcase_9.webp',
+    min: '/assets/drywall/showcase_9-min.webp',
+  },
+  {
+    full: '/assets/drywall/showcase_10.webp',
+    min: '/assets/drywall/showcase_10-min.webp',
+  },
+  {
+    full: '/assets/drywall/showcase_11.webp',
+    min: '/assets/drywall/showcase_11-min.webp',
+  },
+  {
+    full: '/assets/drywall/showcase_12.webp',
+    min: '/assets/drywall/showcase_12-min.webp',
+  },
+  {
+    full: '/assets/drywall/showcase_13.webp',
+    min: '/assets/drywall/showcase_13-min.webp',
+  },
+  {
+    full: '/assets/drywall/showcase_14.webp',
+    min: '/assets/drywall/showcase_14-min.webp',
+  },
+  {
+    full: '/assets/drywall/showcase_15.webp',
+    min: '/assets/drywall/showcase_15-min.webp',
+  },
+  {
+    full: '/assets/drywall/showcase_16.webp',
+    min: '/assets/drywall/showcase_16-min.webp',
   },
 ]
 
@@ -174,10 +238,6 @@ export const carpentryImagesSrcArray = [
     min: '/assets/carpentry/carpentry_2-min.webp',
   },
   {
-    full: '/assets/carpentry/carpentry_3.webp',
-    min: '/assets/carpentry/carpentry_3-min.webp',
-  },
-  {
     full: '/assets/carpentry/carpentry_4.webp',
     min: '/assets/carpentry/carpentry_4-min.webp',
   },
@@ -190,28 +250,33 @@ export const carpentryImagesSrcArray = [
     min: '/assets/carpentry/carpentry_6-min.webp',
   },
   {
-    full: '/assets/carpentry/carpentry_7.webp',
-    min: '/assets/carpentry/carpentry_7-min.webp',
+    full: '/assets/carpentry/carpentry_3.webp',
+    min: '/assets/carpentry/carpentry_3-min.webp',
   },
   {
     full: '/assets/carpentry/carpentry_8.webp',
     min: '/assets/carpentry/carpentry_8-min.webp',
   },
+
   {
-    full: '/assets/carpentry/carpentry_9.webp',
-    min: '/assets/carpentry/carpentry_9-min.webp',
+    full: '/assets/carpentry/carpentry_7.webp',
+    min: '/assets/carpentry/carpentry_7-min.webp',
   },
   {
     full: '/assets/carpentry/carpentry_10.webp',
     min: '/assets/carpentry/carpentry_10-min.webp',
   },
   {
-    full: '/assets/carpentry/carpentry_11.webp',
-    min: '/assets/carpentry/carpentry_11-min.webp',
+    full: '/assets/carpentry/carpentry_9.webp',
+    min: '/assets/carpentry/carpentry_9-min.webp',
   },
   {
     full: '/assets/carpentry/carpentry_12.webp',
     min: '/assets/carpentry/carpentry_12-min.webp',
+  },
+  {
+    full: '/assets/carpentry/carpentry_11.webp',
+    min: '/assets/carpentry/carpentry_11-min.webp',
   },
   {
     full: '/assets/carpentry/carpentry_13.webp',

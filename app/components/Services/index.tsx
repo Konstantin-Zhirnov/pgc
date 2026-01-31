@@ -41,19 +41,15 @@ export const Services = () => {
           </div>
 
           <div className={styles.card}>
-            <p>Window Trim</p>
+            <p>Rough And Finishing Carpentry</p>
 
-            <img className={styles.image} src="/assets/window_trim.webp" alt="Window trim" />
+            <img
+              className={styles.image}
+              src="/assets/carpentry.webp"
+              alt="Rough And Finishing Carpentry"
+            />
 
-            <Link href="/window-trim">Check out our services</Link>
-          </div>
-
-          <div className={styles.card}>
-            <p>Swimming Pool</p>
-
-            <img className={styles.image} src="/assets/pool.webp" alt="Swimming pool" />
-
-            <Link href="/pool">Check out our services</Link>
+            <Link href="/rough-and-finishing-carpentry">Check out our services</Link>
           </div>
         </div>
       </Wrapper>

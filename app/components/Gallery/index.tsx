@@ -43,7 +43,11 @@ export const Gallery: FC<IProps> = ({ images }) => {
           {images.map((item, index) => (
             <PhotoView src={item.full} key={index}>
               <div className={styles.image_container}>
-                <img src={item.min} className={styles.image} alt="Gutter cleaning and repair" />
+                <img
+                  src={item.min}
+                  className={styles.image}
+                  alt="Pahlavan General Contracting Inc"
+                />
               </div>
             </PhotoView>
           ))}

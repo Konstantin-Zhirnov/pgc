@@ -49,7 +49,7 @@ export const Images: FC<IProps> = ({ images }) => {
           {(isShowAll ? images : images.slice(0, 4)).map((item, index) => (
             <PhotoView src={item.full} key={index}>
               <div className={styles.image_container}>
-                <img src={item.min} className={styles.image} alt="Gutter cleaning and repair" />
+                <img src={item.min} className={styles.image} alt="Drywall" />
               </div>
             </PhotoView>
           ))}
